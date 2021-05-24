@@ -1,6 +1,6 @@
 # Update installation to latest
 sudo apt update
-sudo apt upgrade
+sudo apt upgrade -y
 
 # Install X server
 sudo apt install -y --no-install-recommends xserver-xorg x11-xserver-utils xinit openbox xdotool
