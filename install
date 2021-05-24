@@ -13,7 +13,7 @@ echo '[[ -z $DISPLAY && $XDG_VTNR -eq 1 ]] && startx -- -nocursor' > ~/.bash_pro
 
 # Modify autostart file
 wget https://raw.githubusercontent.com/peterchave/pi-kiosk/main/autostart
-sudo cp copy autostart /etc/xdg/openbox/autostart
+sudo cp autostart /etc/xdg/openbox/autostart
 
 # Add --confirm to command to auto run
 bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered) --confirm-install --confirm-pi  
